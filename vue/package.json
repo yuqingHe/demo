@@ -1,0 +1,17 @@
+{
+  "name": "vuedemo",
+  "version": "1.0.0",
+  "description": "a vue demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-browser-sync": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-sass": "latest"
+  },
+  "author": "heyuqing",
+  "license": "MIT"
+}

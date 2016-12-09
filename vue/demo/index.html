@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="lib/vue.js"></script>
+    <title>vue</title>
+</head>
+
+<body>
+    <div id="app">
+        {{message}}
+    </div>
+    <div id="appFor">
+        <ol>
+            <li v-for="todo in todos">
+                {{ todo.text }}
+            </li>
+        </ol>
+    </div>
+</body>
+<script src="js/demo.js"></script>
+
+</html>

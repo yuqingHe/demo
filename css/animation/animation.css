@@ -1,0 +1,23 @@
+.demo_box{
+    border:1px solid #3DA5DC;
+    background:#a4dcf9;
+    height:100px;
+    width:200px; 
+    text-align:center;
+    color:#fff; 
+    }
+.animation_name{
+    left:0;
+    top:100px;
+    position:absolute;
+    -webkit-animation:2s 0.5s ease infinite alternate;
+    -webkit-animation-name:demo;
+    -moz-animation:0.5s 0.5s ease infinite alternate;
+    -moz-animation-name:demo;
+}
+@-webkit-keyframes demo{
+    0%{left:0;}
+    30%{left:50;}
+    60%{left:150;}
+    100%{left:600px;}
+} 
