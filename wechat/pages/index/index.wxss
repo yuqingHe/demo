@@ -22,3 +22,8 @@
 .testtap{
   margin-top: 120px;
 }
+.navi-btn{
+  display: inline-block;
+  margin: 3rpx 2rpx;
+  background-color: oldlace;
+}

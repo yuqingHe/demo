@@ -2,6 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/demo/demo",
+    "pages/icon/icon",
+    "pages/scroll/scroll",
     "pages/logs/logs"
   ],
   "tabBar": {
