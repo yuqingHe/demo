@@ -1,0 +1,18 @@
+.section__title{
+}
+.bc_green{
+    background-color:green
+}
+.bc_red{ background-color:red
+}
+.bc_yellow{
+background-color:yellow
+}
+.bc_blue{
+background-color:blue
+}
+
+.scroll-view-item_H,
+.scroll-view-item{
+ height :5rem;
+}
