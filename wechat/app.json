@@ -4,23 +4,26 @@
     "pages/demo/demo",
     "pages/icon/icon",
     "pages/scroll/scroll",
+    "pages/API/API",
+    "pages/zhihu/start/start",
+    "pages/zhihu/index/index",
     "pages/logs/logs"
   ],
   "tabBar": {
-    "color":"#0000ff",
-    "selectedColor":"#ffffcc",
-    "backgroundColor":"#fc9",
+    "color": "#0000ff",
+    "selectedColor": "#ffffcc",
+    "backgroundColor": "#fc9",
     "list": [{
       "pagePath": "pages/index/index",
       "text": "首页",
-      "iconPath":"imgs/index/index.png"
+      "iconPath": "imgs/index/index.png"
     }, {
       "pagePath": "pages/demo/demo",
       "text": "demo"
     }]
   },
   "window": {
-  "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "微信接口功能演示",
     "backgroundColor": "#eeeeee",

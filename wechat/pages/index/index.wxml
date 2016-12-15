@@ -6,4 +6,5 @@
   </view>
 <button class="navi-btn" bindtap="toswiper">toswiper</button><button  class="navi-btn" bindtap="toIcon">toIcon</button>
 <button  class="navi-btn" bindtap="toScroll">toScroll</button>
+<button  class="navi-btn" bindtap="tozhihu">tozhihu</button>
 </view>

@@ -42,6 +42,11 @@ Page({
       url: '../demo/demo'
     })
   },
+  tozhihu: function () {
+    wx.navigateTo({
+      url: '../zhihu/start/start'
+    })
+  },
   toIcon: function () {
     wx.navigateTo({
       url: '../icon/icon'

@@ -1,0 +1,9 @@
+.index-swiper{
+   width :100%,
+   overflow:hidden
+}
+.desc{
+ height : 40rpx;
+ width:100%;
+ z-index : 3
+}
