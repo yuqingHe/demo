@@ -8,17 +8,24 @@
 </head>
 
 <body>
-    <div id="app">
-        {{message}}
-    </div>
     <div id="appFor">
+        <span v-bind:title="message">
+                 Hover your mouse over me for a few seconds to see my dynamically bound title!
+        </span>
         <ol>
             <li v-for="todo in todos">
                 {{ todo.text }}
             </li>
         </ol>
+         <button v-on:click="showMessage()">showMessage</button>
+           <p>{{ message }}</p>
+            <input v-model="message">
+    </div>
+    <div id="comp">
+            <comp1 v-bind:counter="counter21">{{counter}}</comp1>
+            <comp1></comp1>
+            <comp1>{{counter}}</comp1>
     </div>
 </body>
 <script src="js/demo.js"></script>
-
 </html>
