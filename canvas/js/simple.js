@@ -339,7 +339,11 @@ r	弧的半径
         context.fill();
         context.stroke();
     },
-
+    /**
+    clip()方法从原始画布中剪切任意形状和尺寸。 
+提示：一旦剪切了某个区域，则所有之后的绘图都会被限制在被剪切的区域内（不能访问画布上的其他区域）。
+您也可以在使用 clip() 方法前通过使用 save() 方法对当前画布区域进行保存，并在以后的任意时间对其进行恢复（通过 restore() 方法） 
+     */
     clipdemos : function(){
         var canvas = document.getElementById("canvas");
     var context = canvas.getContext("2d");
